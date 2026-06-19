@@ -4,17 +4,29 @@
 ESP32 Pokemon Handheld
 
 ## Current Phase
-Project Initialization
+Hardware Verification
 
 ## Completed
-- [ ] GitHub repository created
-- [ ] Initial project structure created
+- [x] GitHub repository created
+- [x] Initial project structure created
+- [x] ESP32 identified
+- [x] TFT display identified
 
 ## In Progress
-- Repository setup
+- Development environment setup
 
 ## Blockers
 - None
 
+## Hardware Confirmed
+
+### MCU
+ESP32 DevKit V1
+
+### Display
+3.5" SPI TFT 480x320
+KMRTM35018-SPI V1.0
+
 ## Notes
-Project started.
+Target emulator platform: Original Game Boy
+Target game: Pokemon Red
