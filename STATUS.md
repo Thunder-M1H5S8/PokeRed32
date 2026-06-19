@@ -11,9 +11,10 @@ Hardware Verification
 - [x] Initial project structure created
 - [x] ESP32 identified
 - [x] TFT display identified
+- [x] PlatformIO environment configured
 
 ## In Progress
-- Development environment setup
+- First firmware upload
 
 ## Blockers
 - None
