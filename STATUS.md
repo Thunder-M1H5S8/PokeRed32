@@ -12,9 +12,11 @@ Hardware Verification
 - [x] ESP32 identified
 - [x] TFT display identified
 - [x] PlatformIO environment configured
+- [x] First firmware uploaded
+- [x] Serial monitor verified
 
 ## In Progress
-- First firmware upload
+- Display bring-up
 
 ## Blockers
 - None
