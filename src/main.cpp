@@ -1,19 +1,18 @@
 #include <Arduino.h>
+#include <TFT_eSPI.h>
+
+TFT_eSPI tft = TFT_eSPI();
 
 void setup() {
     Serial.begin(115200);
-    delay(1000);
 
-    Serial.println();
-    Serial.println("=== PokeRed32 ===");
-    Serial.println("ESP32 Boot Successful");
+    Serial.println("Starting TFT...");
+
+    tft.init();
+    tft.setRotation(1);
+
+    tft.fillScreen(TFT_RED);
 }
 
 void loop() {
-    static uint32_t last = 0;
-
-    if (millis() - last > 1000) {
-        last = millis();
-        Serial.println("Running...");
-    }
 }
